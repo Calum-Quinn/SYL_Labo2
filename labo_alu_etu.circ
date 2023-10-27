@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="68b1b39c113076017721ea8df6544b95e5ba6191" source="2.16.8.t" version="1.0">
+<project integrity="fc2c15168037a371de74bea5a4101ae8c9dbf279" source="2.16.8.t" version="1.0">
 This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -387,6 +387,315 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(210,210)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="4635137e-7a92-467d-a2ce-d1f5b9e2eff1"/>
+      <a name="integrity" val="e386198c2660b989e1e65fbd06cf24a4c744075b"/>
+    </comp>
+    <comp lib="0" loc="(210,250)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="effc5937-6397-4dfd-a243-0ba946df0847"/>
+      <a name="integrity" val="b7af834c79d7db1cdcc7b809c863081fd78c032b"/>
+    </comp>
+    <comp lib="0" loc="(190,290)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="label" val="op_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="fbc288e8-c980-476d-8b9d-fbfbab0a067d"/>
+      <a name="integrity" val="79b0536c10d32f2e04884326ba9d853a68b17059"/>
+    </comp>
+    <comp lib="0" loc="(620,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="overflow_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:56:14"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="ddc3e64c-fc47-4511-bb6d-d890e23861da"/>
+      <a name="integrity" val="5414515f86a62e951bbf8457d806b4fdd285a6ec"/>
+    </comp>
+    <comp lib="0" loc="(620,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:55:58"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1c77d9c8-1600-4a01-9339-06705f67f868"/>
+      <a name="integrity" val="fb876c9c1351c0138cf1fe810061cbbc778825c9"/>
+    </comp>
+    <comp lib="0" loc="(410,430)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Negative_o"/>
+      <a name="labelloc" val="south"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:56:28"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="97786343-5314-40f2-aa5c-75e702e4d833"/>
+      <a name="integrity" val="0ab5074cd692a70dda877162e664e755513b759a"/>
+    </comp>
+    <comp lib="0" loc="(320,430)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="carry_o"/>
+      <a name="labelloc" val="south"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:56:28"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="299dc630-82a6-4762-9fbc-5b50bbd74d38"/>
+      <a name="integrity" val="b6cd5da3fc8a977dacebef2d52acb7ca82e364a9"/>
+    </comp>
+    <comp lib="0" loc="(500,430)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="zero_o"/>
+      <a name="labelloc" val="south"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:56:28"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="a7de7286-626d-48b3-a901-2122d6a9b637"/>
+      <a name="integrity" val="06b9818e33408f32d620cba87746687d1ed84145"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="Comparateur">
+    <a name="circuit" val="Comparateur"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(300,170)" name="Pin">
+      <a name="label" val="a_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:58:26"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="342804bf-97ac-4905-b7e9-4c73c386682a"/>
+      <a name="integrity" val="512c14aed7959540dfd9391831effa4de8db66c2"/>
+    </comp>
+    <comp lib="0" loc="(300,230)" name="Pin">
+      <a name="label" val="b_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:58:26"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="0c364ffe-9e36-4502-99d8-187a60c0ed41"/>
+      <a name="integrity" val="e8f12ef80d7cf07d3af36f9272eb78b7375aa52c"/>
+    </comp>
+    <comp lib="0" loc="(300,290)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="label" val="op_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="59fa3f41-10f7-43ac-b8ae-6db444f05da6"/>
+      <a name="integrity" val="4e39ce61935ca666142eb728da7d6ebac87e1523"/>
+    </comp>
+    <comp lib="0" loc="(400,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="carry_i"/>
+      <a name="labelloc" val="north"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:59:58"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="7e6f038b-455f-4584-997d-4788b341fc8e"/>
+      <a name="integrity" val="48beb6a226ad6faa4f8040ab8566fa89ecc9b6d1"/>
+    </comp>
+    <comp lib="0" loc="(490,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="Negative_i"/>
+      <a name="labelloc" val="north"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:59:58"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="35d43302-59b0-4226-a830-66e8303af037"/>
+      <a name="integrity" val="2a344ad64354324f7f7a4177c5e1ae6a309a4362"/>
+    </comp>
+    <comp lib="0" loc="(580,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="zero_i"/>
+      <a name="labelloc" val="north"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:59:58"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="ef4484b1-0df8-4fd9-b7e1-33851d62d8c1"/>
+      <a name="integrity" val="6a047d08c209c0262c06ae06522a85ae134042e6"/>
+    </comp>
+    <comp lib="0" loc="(750,290)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="cmp_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 10:00:49"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="bf6fb04c-eb79-4c43-a891-b43c56f07a94"/>
+      <a name="integrity" val="a4cd7b2c5ed39f8f144e5ad32f538b0e5958a709"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="UniteLogique">
+    <a name="circuit" val="UniteLogique"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(190,290)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="label" val="op_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="fd1be34e-0c1c-4f26-9ce7-07d3ca362541"/>
+      <a name="integrity" val="f8e0e522ed2df065bc98a77e85cdf234e38eb6ae"/>
+    </comp>
+    <comp lib="0" loc="(210,250)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="9d673743-0c8a-4f40-b0e5-ae697f36c4d6"/>
+      <a name="integrity" val="f129816c1d9fc2336c13c620b9f74ecbd260a907"/>
+    </comp>
+    <comp lib="0" loc="(210,210)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="733b52e5-c880-47ad-98eb-83d9af0f4d59"/>
+      <a name="integrity" val="0cac167fc693b105a3760cd4a0386e3a36af4612"/>
+    </comp>
+    <comp lib="0" loc="(610,290)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="f_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:55:58"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="de7a0785-fe61-4a67-a3c1-c54dd9c9bd09"/>
+      <a name="integrity" val="1baafc1d4cef08f3117caef1f6964b9ef7a1bb66"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="Custom">
+    <a name="circuit" val="Custom"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <comp lib="0" loc="(350,280)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="a_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 10:02:26"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="31901ab5-2f81-4212-a145-4f2cb6743436"/>
+      <a name="integrity" val="966f3a90326e5382a097d8446678ba471a66b2bb"/>
+    </comp>
+    <comp lib="0" loc="(800,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+      <a name="label" val="s_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 10:02:38"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="24d91697-0e19-48cf-be19-d712341eb3fb"/>
+      <a name="integrity" val="5084a8bdcb66dafaf8ea27258d3d8a4fa8fc2b2c"/>
+    </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
       <a name="font" val="SansSerif plain 48"/>

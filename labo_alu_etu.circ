@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="a01bd0c8e19a58937c509fdc9c7e4d2cba0e162c" source="2.16.8.t" version="1.0">
+<project integrity="91563153cdecab399e289c189ea181287c9aa0fc" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -1049,25 +1049,38 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
-    <comp lib="0" loc="(190,290)" name="Pin">
-      <a name="width" val="2"/>
-      <a name="label" val="op_i"/>
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="27.10.23 09:54:36"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="fd1be34e-0c1c-4f26-9ce7-07d3ca362541"/>
-      <a name="integrity" val="f8e0e522ed2df065bc98a77e85cdf234e38eb6ae"/>
-    </comp>
-    <comp lib="0" loc="(210,250)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="label" val="b_i"/>
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="27.10.23 09:54:36"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="9d673743-0c8a-4f40-b0e5-ae697f36c4d6"/>
-      <a name="integrity" val="f129816c1d9fc2336c13c620b9f74ecbd260a907"/>
-    </comp>
-    <comp lib="0" loc="(210,210)" name="Pin">
+    <wire from="(210,160)" to="(460,160)"/>
+    <wire from="(730,290)" to="(730,430)"/>
+    <wire from="(430,260)" to="(480,260)"/>
+    <wire from="(430,200)" to="(480,200)"/>
+    <wire from="(430,320)" to="(480,320)"/>
+    <wire from="(430,380)" to="(480,380)"/>
+    <wire from="(700,180)" to="(700,250)"/>
+    <wire from="(690,270)" to="(690,300)"/>
+    <wire from="(700,280)" to="(700,360)"/>
+    <wire from="(530,180)" to="(700,180)"/>
+    <wire from="(690,240)" to="(690,260)"/>
+    <wire from="(540,300)" to="(690,300)"/>
+    <wire from="(690,260)" to="(710,260)"/>
+    <wire from="(690,270)" to="(710,270)"/>
+    <wire from="(210,380)" to="(430,380)"/>
+    <wire from="(190,430)" to="(730,430)"/>
+    <wire from="(530,240)" to="(690,240)"/>
+    <wire from="(540,360)" to="(700,360)"/>
+    <wire from="(460,220)" to="(480,220)"/>
+    <wire from="(460,160)" to="(480,160)"/>
+    <wire from="(460,280)" to="(480,280)"/>
+    <wire from="(460,340)" to="(480,340)"/>
+    <wire from="(750,270)" to="(820,270)"/>
+    <wire from="(430,200)" to="(430,260)"/>
+    <wire from="(430,260)" to="(430,320)"/>
+    <wire from="(430,320)" to="(430,380)"/>
+    <wire from="(460,160)" to="(460,220)"/>
+    <wire from="(460,220)" to="(460,280)"/>
+    <wire from="(460,280)" to="(460,340)"/>
+    <wire from="(700,250)" to="(710,250)"/>
+    <wire from="(700,280)" to="(710,280)"/>
+    <comp lib="0" loc="(210,160)" name="Pin">
       <a name="width" val="4"/>
       <a name="label" val="a_i"/>
       <a name="owner" val="calum_quinn"/>
@@ -1076,7 +1089,67 @@ end TCL_Generic;&#13;
       <a name="uuid" val="733b52e5-c880-47ad-98eb-83d9af0f4d59"/>
       <a name="integrity" val="0cac167fc693b105a3760cd4a0386e3a36af4612"/>
     </comp>
-    <comp lib="0" loc="(610,290)" name="Pin">
+    <comp lib="1" loc="(530,180)" name="AND Gate">
+      <a name="width" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 21:54:50"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="d125f7f7-32e5-4518-88ff-41e1ab9fca75"/>
+      <a name="integrity" val="a6bc7d5a95b261e2dd727d83990da9951f81ac1d"/>
+    </comp>
+    <comp lib="1" loc="(530,240)" name="OR Gate">
+      <a name="width" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 21:55:30"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="7dcb970b-2952-43a0-b1c1-e96a529740b8"/>
+      <a name="integrity" val="3e45bfcd008abfe5cdcd01b67c368ef1d76807fd"/>
+    </comp>
+    <comp lib="1" loc="(540,300)" name="NAND Gate">
+      <a name="width" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 21:55:33"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="339e4c68-68c2-45b3-ae00-579f642c546f"/>
+      <a name="integrity" val="4058755bd2beead9405736557bdb5d44f4153fac"/>
+    </comp>
+    <comp lib="1" loc="(540,360)" name="XOR Gate">
+      <a name="width" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 21:55:35"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="18606f5d-7a06-4742-b6bf-0e1019e46ac6"/>
+      <a name="integrity" val="e78775c49b0e5e17688d9c5b1f767372c2c81295"/>
+    </comp>
+    <comp lib="0" loc="(210,380)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="b_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="9d673743-0c8a-4f40-b0e5-ae697f36c4d6"/>
+      <a name="integrity" val="f129816c1d9fc2336c13c620b9f74ecbd260a907"/>
+    </comp>
+    <comp lib="2" loc="(750,270)" name="Multiplexer">
+      <a name="select" val="2"/>
+      <a name="width" val="4"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 22:01:20"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1b34ca7a-01d8-4563-b697-1ef6076be441"/>
+      <a name="integrity" val="23ecc4d55ce228fcca8a927a1cd40697f4b02530"/>
+    </comp>
+    <comp lib="0" loc="(190,430)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="label" val="op_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="fd1be34e-0c1c-4f26-9ce7-07d3ca362541"/>
+      <a name="integrity" val="f8e0e522ed2df065bc98a77e85cdf234e38eb6ae"/>
+    </comp>
+    <comp lib="0" loc="(820,270)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>

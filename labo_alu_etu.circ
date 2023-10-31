@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="18ed0fd60673ce35d0de6df9b35d078016a1917c" source="2.16.8.t" version="1.0">
+<project integrity="5d436703ef5fe9c0563e5ca1cd1aa624930c2471" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -1196,26 +1196,35 @@ end TCL_Generic;&#13;
     <a name="circuitvhdlpath" val=""/>
     <wire from="(600,360)" to="(600,370)"/>
     <wire from="(900,260)" to="(900,270)"/>
+    <wire from="(600,440)" to="(650,440)"/>
     <wire from="(500,380)" to="(550,380)"/>
+    <wire from="(600,430)" to="(660,430)"/>
     <wire from="(510,230)" to="(510,250)"/>
     <wire from="(500,130)" to="(500,210)"/>
     <wire from="(410,250)" to="(510,250)"/>
     <wire from="(500,300)" to="(600,300)"/>
-    <wire from="(350,280)" to="(390,280)"/>
     <wire from="(510,360)" to="(550,360)"/>
     <wire from="(880,310)" to="(900,310)"/>
     <wire from="(510,280)" to="(600,280)"/>
     <wire from="(650,360)" to="(670,360)"/>
+    <wire from="(370,280)" to="(390,280)"/>
+    <wire from="(770,270)" to="(770,430)"/>
+    <wire from="(660,430)" to="(660,440)"/>
     <wire from="(900,270)" to="(900,280)"/>
+    <wire from="(730,250)" to="(790,250)"/>
     <wire from="(500,300)" to="(500,380)"/>
     <wire from="(510,150)" to="(510,230)"/>
     <wire from="(500,270)" to="(500,300)"/>
     <wire from="(410,260)" to="(510,260)"/>
     <wire from="(410,270)" to="(500,270)"/>
     <wire from="(920,240)" to="(940,240)"/>
+    <wire from="(650,450)" to="(670,450)"/>
     <wire from="(700,370)" to="(730,370)"/>
+    <wire from="(370,280)" to="(370,450)"/>
+    <wire from="(730,250)" to="(730,370)"/>
     <wire from="(660,150)" to="(670,150)"/>
     <wire from="(600,140)" to="(600,150)"/>
+    <wire from="(840,250)" to="(900,250)"/>
     <wire from="(730,140)" to="(730,230)"/>
     <wire from="(900,280)" to="(900,310)"/>
     <wire from="(510,280)" to="(510,360)"/>
@@ -1223,24 +1232,29 @@ end TCL_Generic;&#13;
     <wire from="(580,150)" to="(600,150)"/>
     <wire from="(640,290)" to="(660,290)"/>
     <wire from="(700,140)" to="(730,140)"/>
+    <wire from="(350,280)" to="(370,280)"/>
     <wire from="(580,130)" to="(670,130)"/>
     <wire from="(600,370)" to="(670,370)"/>
-    <wire from="(730,230)" to="(740,230)"/>
-    <wire from="(730,270)" to="(740,270)"/>
+    <wire from="(600,410)" to="(670,410)"/>
+    <wire from="(660,440)" to="(670,440)"/>
     <wire from="(640,220)" to="(650,220)"/>
+    <wire from="(650,440)" to="(650,450)"/>
     <wire from="(650,220)" to="(650,360)"/>
+    <wire from="(720,430)" to="(770,430)"/>
     <wire from="(660,150)" to="(660,290)"/>
     <wire from="(500,130)" to="(550,130)"/>
+    <wire from="(370,450)" to="(550,450)"/>
+    <wire from="(730,230)" to="(790,230)"/>
     <wire from="(510,260)" to="(510,280)"/>
     <wire from="(500,210)" to="(500,240)"/>
     <wire from="(500,210)" to="(600,210)"/>
-    <wire from="(790,250)" to="(900,250)"/>
     <wire from="(510,150)" to="(550,150)"/>
     <wire from="(510,230)" to="(600,230)"/>
     <wire from="(580,360)" to="(600,360)"/>
-    <wire from="(730,270)" to="(730,370)"/>
+    <wire from="(770,270)" to="(790,270)"/>
     <wire from="(580,380)" to="(670,380)"/>
     <wire from="(600,140)" to="(670,140)"/>
+    <wire from="(600,420)" to="(670,420)"/>
     <comp lib="0" loc="(350,280)" name="Pin">
       <a name="width" val="4"/>
       <a name="label" val="a_i"/>
@@ -1280,13 +1294,6 @@ end TCL_Generic;&#13;
       <a name="version" val="2.16.8.t"/>
       <a name="uuid" val="24d91697-0e19-48cf-be19-d712341eb3fb"/>
       <a name="integrity" val="5084a8bdcb66dafaf8ea27258d3d8a4fa8fc2b2c"/>
-    </comp>
-    <comp lib="1" loc="(790,250)" name="OR Gate">
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 22:45:41"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="6e77ced1-f25a-488b-9b44-7fb73057a22e"/>
-      <a name="integrity" val="a8778d48f7f2e71439e05e18efec0cf6feca0bf2"/>
     </comp>
     <comp lib="0" loc="(880,310)" name="Constant">
       <a name="value" val="0x0"/>
@@ -1364,6 +1371,39 @@ end TCL_Generic;&#13;
     <comp lib="8" loc="(362,103)" name="Text">
       <a name="text" val="Devient (A^B)/C/D + (C^D)/A/B"/>
       <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="1" loc="(580,450)" name="NOT Gate">
+      <a name="width" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 23:32:48"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="f683ce31-2d82-4801-8801-1f185d95ccc0"/>
+      <a name="integrity" val="3b82de1472161595141ebf663e2f6bbf02ab0615"/>
+    </comp>
+    <comp lib="0" loc="(580,450)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 22:07:41"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="d11fc3b3-512e-44a1-970b-4617b7790419"/>
+      <a name="integrity" val="0f65e3e57cd741045672e46e234d4e6498c6bc88"/>
+    </comp>
+    <comp lib="1" loc="(840,250)" name="OR Gate">
+      <a name="inputs" val="3"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 22:45:41"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="6e77ced1-f25a-488b-9b44-7fb73057a22e"/>
+      <a name="integrity" val="a8778d48f7f2e71439e05e18efec0cf6feca0bf2"/>
+    </comp>
+    <comp lib="1" loc="(720,430)" name="AND Gate">
+      <a name="inputs" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 23:33:43"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="6ef27a3a-92d9-47f1-b58c-24cf82622381"/>
+      <a name="integrity" val="cbd64b7ae407357fe41a5e871aaeeb5709a4b33a"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>

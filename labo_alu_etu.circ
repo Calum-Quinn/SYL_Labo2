@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="242df749805709e5ca6bfb4076778e781813fcc8" source="2.16.8.t" version="1.0">
+<project integrity="a01bd0c8e19a58937c509fdc9c7e4d2cba0e162c" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -388,82 +388,149 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(850,430)" to="(900,430)"/>
-    <wire from="(220,280)" to="(220,290)"/>
-    <wire from="(540,250)" to="(540,320)"/>
-    <wire from="(810,310)" to="(810,340)"/>
-    <wire from="(820,330)" to="(860,330)"/>
-    <wire from="(220,190)" to="(220,280)"/>
-    <wire from="(620,390)" to="(620,470)"/>
-    <wire from="(170,280)" to="(210,280)"/>
-    <wire from="(360,230)" to="(400,230)"/>
-    <wire from="(520,210)" to="(560,210)"/>
-    <wire from="(170,290)" to="(200,290)"/>
-    <wire from="(920,350)" to="(940,350)"/>
-    <wire from="(540,250)" to="(560,250)"/>
-    <wire from="(790,370)" to="(790,410)"/>
-    <wire from="(640,230)" to="(660,230)"/>
-    <wire from="(370,190)" to="(400,190)"/>
-    <wire from="(500,210)" to="(520,210)"/>
-    <wire from="(1020,370)" to="(1020,470)"/>
-    <wire from="(990,370)" to="(1020,370)"/>
-    <wire from="(780,190)" to="(780,290)"/>
-    <wire from="(500,190)" to="(780,190)"/>
-    <wire from="(910,390)" to="(940,390)"/>
-    <wire from="(200,290)" to="(220,290)"/>
-    <wire from="(790,310)" to="(790,370)"/>
-    <wire from="(780,190)" to="(850,190)"/>
-    <wire from="(260,280)" to="(270,280)"/>
-    <wire from="(140,300)" to="(150,300)"/>
-    <wire from="(240,280)" to="(250,280)"/>
-    <wire from="(210,320)" to="(540,320)"/>
-    <wire from="(620,390)" to="(880,390)"/>
-    <wire from="(790,410)" to="(800,410)"/>
-    <wire from="(520,270)" to="(660,270)"/>
-    <wire from="(610,230)" to="(620,230)"/>
-    <wire from="(810,340)" to="(860,340)"/>
-    <wire from="(800,360)" to="(860,360)"/>
-    <wire from="(640,160)" to="(640,230)"/>
-    <wire from="(160,210)" to="(400,210)"/>
-    <wire from="(820,310)" to="(820,330)"/>
-    <wire from="(370,160)" to="(370,190)"/>
-    <wire from="(200,290)" to="(200,450)"/>
-    <wire from="(900,430)" to="(900,470)"/>
-    <wire from="(280,300)" to="(300,300)"/>
-    <wire from="(620,230)" to="(620,390)"/>
-    <wire from="(220,190)" to="(370,190)"/>
-    <wire from="(210,280)" to="(210,320)"/>
-    <wire from="(200,450)" to="(800,450)"/>
-    <wire from="(220,280)" to="(240,280)"/>
-    <wire from="(400,190)" to="(410,190)"/>
-    <wire from="(250,280)" to="(260,280)"/>
-    <wire from="(720,250)" to="(850,250)"/>
-    <wire from="(160,260)" to="(300,260)"/>
-    <wire from="(790,370)" to="(860,370)"/>
-    <wire from="(360,230)" to="(360,280)"/>
-    <wire from="(370,160)" to="(640,160)"/>
-    <wire from="(520,210)" to="(520,270)"/>
-    <wire from="(800,310)" to="(800,360)"/>
-    <comp loc="(500,190)" name="Add4bit"/>
-    <comp lib="0" loc="(280,300)" name="Splitter">
+    <wire from="(1030,290)" to="(1080,290)"/>
+    <wire from="(1030,310)" to="(1080,310)"/>
+    <wire from="(760,340)" to="(880,340)"/>
+    <wire from="(500,380)" to="(690,380)"/>
+    <wire from="(910,350)" to="(1030,350)"/>
+    <wire from="(180,260)" to="(180,270)"/>
+    <wire from="(180,140)" to="(180,150)"/>
+    <wire from="(320,510)" to="(500,510)"/>
+    <wire from="(890,500)" to="(950,500)"/>
+    <wire from="(1140,300)" to="(1140,580)"/>
+    <wire from="(950,470)" to="(950,500)"/>
+    <wire from="(830,470)" to="(930,470)"/>
+    <wire from="(520,420)" to="(880,420)"/>
+    <wire from="(410,370)" to="(410,390)"/>
+    <wire from="(500,360)" to="(500,380)"/>
+    <wire from="(520,260)" to="(620,260)"/>
+    <wire from="(150,440)" to="(380,440)"/>
+    <wire from="(930,450)" to="(930,470)"/>
+    <wire from="(390,280)" to="(620,280)"/>
+    <wire from="(190,290)" to="(190,320)"/>
+    <wire from="(410,370)" to="(440,370)"/>
+    <wire from="(400,420)" to="(430,420)"/>
+    <wire from="(1070,360)" to="(1210,360)"/>
+    <wire from="(690,560)" to="(900,560)"/>
+    <wire from="(1060,360)" to="(1070,360)"/>
+    <wire from="(970,370)" to="(970,410)"/>
+    <wire from="(520,260)" to="(520,420)"/>
+    <wire from="(400,410)" to="(420,410)"/>
+    <wire from="(420,410)" to="(440,410)"/>
+    <wire from="(420,390)" to="(440,390)"/>
+    <wire from="(190,170)" to="(190,210)"/>
+    <wire from="(850,260)" to="(940,260)"/>
+    <wire from="(430,430)" to="(440,430)"/>
+    <wire from="(970,410)" to="(1100,410)"/>
+    <wire from="(460,520)" to="(470,520)"/>
+    <wire from="(480,520)" to="(490,520)"/>
+    <wire from="(940,260)" to="(940,320)"/>
+    <wire from="(720,260)" to="(850,260)"/>
+    <wire from="(760,280)" to="(760,340)"/>
+    <wire from="(930,550)" to="(940,550)"/>
+    <wire from="(870,190)" to="(880,190)"/>
+    <wire from="(940,260)" to="(1210,260)"/>
+    <wire from="(920,430)" to="(970,430)"/>
+    <wire from="(1030,300)" to="(1080,300)"/>
+    <wire from="(1030,280)" to="(1080,280)"/>
+    <wire from="(830,440)" to="(880,440)"/>
+    <wire from="(1100,410)" to="(1100,430)"/>
+    <wire from="(430,500)" to="(480,500)"/>
+    <wire from="(390,140)" to="(390,280)"/>
+    <wire from="(970,370)" to="(1030,370)"/>
+    <wire from="(430,420)" to="(430,430)"/>
+    <wire from="(500,510)" to="(500,520)"/>
+    <wire from="(380,430)" to="(380,440)"/>
+    <wire from="(580,300)" to="(620,300)"/>
+    <wire from="(420,390)" to="(420,410)"/>
+    <wire from="(430,500)" to="(430,520)"/>
+    <wire from="(720,280)" to="(760,280)"/>
+    <wire from="(930,450)" to="(970,450)"/>
+    <wire from="(480,420)" to="(480,500)"/>
+    <wire from="(500,540)" to="(540,540)"/>
+    <wire from="(500,520)" to="(540,520)"/>
+    <wire from="(480,420)" to="(520,420)"/>
+    <wire from="(150,140)" to="(180,140)"/>
+    <wire from="(150,260)" to="(180,260)"/>
+    <wire from="(880,540)" to="(900,540)"/>
+    <wire from="(860,360)" to="(880,360)"/>
+    <wire from="(950,470)" to="(970,470)"/>
+    <wire from="(430,520)" to="(460,520)"/>
+    <wire from="(470,380)" to="(500,380)"/>
+    <wire from="(1070,320)" to="(1080,320)"/>
+    <wire from="(940,550)" to="(940,590)"/>
+    <wire from="(180,140)" to="(390,140)"/>
+    <wire from="(580,300)" to="(580,530)"/>
+    <wire from="(830,500)" to="(860,500)"/>
+    <wire from="(400,390)" to="(410,390)"/>
+    <wire from="(850,200)" to="(850,260)"/>
+    <wire from="(470,420)" to="(480,420)"/>
+    <wire from="(470,520)" to="(480,520)"/>
+    <wire from="(500,360)" to="(830,360)"/>
+    <wire from="(940,320)" to="(1010,320)"/>
+    <wire from="(180,260)" to="(320,260)"/>
+    <wire from="(1070,320)" to="(1070,360)"/>
+    <wire from="(760,340)" to="(760,580)"/>
+    <wire from="(320,260)" to="(320,510)"/>
+    <wire from="(690,380)" to="(690,560)"/>
+    <comp lib="8" loc="(442,450)" name="Text">
+      <a name="text" val="Soustraction"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="1" loc="(470,380)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:55:31"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="fc2031d6-d19f-4cce-a719-00e17824bd29"/>
+      <a name="integrity" val="0c859bea4999940d6d7c4356d2e66efe2073d298"/>
+    </comp>
+    <comp lib="0" loc="(500,540)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="owner" val="calum_quinn"/>
       <a name="date" val="03.10.23 19:24:01"/>
       <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="20eee134-bce9-4840-9848-98b5f85c71ed"/>
-      <a name="integrity" val="e9e8e042d0a9851f777379346f8d4ff13e9269b2"/>
+      <a name="uuid" val="1bf81e49-8e0e-4281-81a7-6f5514b094ae"/>
+      <a name="integrity" val="7d347546713fba39dfd39426d9a54d46582b4bf6"/>
     </comp>
-    <comp lib="1" loc="(360,280)" name="XOR Gate">
+    <comp lib="1" loc="(580,530)" name="XOR Gate">
       <a name="width" val="4"/>
+      <a name="size" val="30"/>
       <a name="owner" val="calum_quinn"/>
       <a name="date" val="03.10.23 19:26:20"/>
       <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="9e733b39-4119-4e6a-ae45-6baa080a3563"/>
-      <a name="integrity" val="5439b366ab993cd0575bc8889fa717ba364f7382"/>
+      <a name="uuid" val="f07d081f-5e1d-419c-a62b-3331ec150feb"/>
+      <a name="integrity" val="28bbf429e7fc0f0c3c5052b62818ab85f2ef2417"/>
     </comp>
-    <comp lib="0" loc="(160,210)" name="Pin">
+    <comp lib="2" loc="(380,430)" name="Decoder">
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:53:33"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="9bc498f6-18a2-4ee7-9dfd-be8131ec9ca4"/>
+      <a name="integrity" val="d66611499bd1e82fbdf455813583d05216d3cb2b"/>
+    </comp>
+    <comp lib="1" loc="(470,420)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:55:31"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="31e969fe-6718-44d5-b957-9a872a254b74"/>
+      <a name="integrity" val="c9d54fefe1bfebf3e8ad585655eea38b6acae49c"/>
+    </comp>
+    <comp lib="1" loc="(1060,360)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:15:01"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1163763b-8154-40c1-9e7c-300694e60eca"/>
+      <a name="integrity" val="8835b6caa28de4a227956439cbb97bd4fdbe3639"/>
+    </comp>
+    <comp loc="(720,260)" name="Add4bit"/>
+    <comp lib="0" loc="(150,140)" name="Pin">
       <a name="width" val="4"/>
       <a name="label" val="a_i"/>
       <a name="owner" val="calum_quinn"/>
@@ -472,23 +539,46 @@ end TCL_Generic;&#13;
       <a name="uuid" val="4635137e-7a92-467d-a2ce-d1f5b9e2eff1"/>
       <a name="integrity" val="e386198c2660b989e1e65fbd06cf24a4c744075b"/>
     </comp>
-    <comp lib="0" loc="(140,300)" name="Pin">
-      <a name="width" val="2"/>
-      <a name="label" val="op_i"/>
+    <comp lib="0" loc="(180,270)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
       <a name="owner" val="calum_quinn"/>
-      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="date" val="31.10.23 19:17:02"/>
       <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="fbc288e8-c980-476d-8b9d-fbfbab0a067d"/>
-      <a name="integrity" val="79b0536c10d32f2e04884326ba9d853a68b17059"/>
+      <a name="uuid" val="a39c861a-9bb3-4d0f-9080-d1e98222fd60"/>
+      <a name="integrity" val="056699283bb7a36f7093786f384942ad16dd0f4d"/>
     </comp>
-    <comp lib="0" loc="(150,300)" name="Splitter">
+    <comp lib="0" loc="(180,150)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
       <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 13:37:33"/>
+      <a name="date" val="31.10.23 19:17:02"/>
       <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="84e9140d-595e-4458-827f-b523f682e4f4"/>
-      <a name="integrity" val="f3f774ef5b3775aa9c67ed7863229fc91ca0e9b5"/>
+      <a name="uuid" val="67a4aa50-0799-4bb6-96c4-9d697ec8d3b8"/>
+      <a name="integrity" val="8d2f7f2c8807d96024a3bc817b6aebe22d4badf6"/>
     </comp>
-    <comp lib="0" loc="(160,260)" name="Pin">
+    <comp lib="0" loc="(190,210)" name="Tunnel">
+      <a name="label" val="a_i_Bit3"/>
+    </comp>
+    <comp lib="0" loc="(190,320)" name="Tunnel">
+      <a name="label" val="b_i_Bit3"/>
+    </comp>
+    <comp lib="8" loc="(452,358)" name="Text">
+      <a name="text" val="SIgné"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(850,200)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:17:02"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="f6f47bb9-7454-46c7-a763-83463a84e164"/>
+      <a name="integrity" val="1dfea888f4892ba0ee897a69cdf278cff25e920f"/>
+    </comp>
+    <comp lib="0" loc="(150,260)" name="Pin">
       <a name="width" val="4"/>
       <a name="label" val="b_i"/>
       <a name="owner" val="calum_quinn"/>
@@ -497,15 +587,35 @@ end TCL_Generic;&#13;
       <a name="uuid" val="effc5937-6397-4dfd-a243-0ba946df0847"/>
       <a name="integrity" val="b7af834c79d7db1cdcc7b809c863081fd78c032b"/>
     </comp>
-    <comp lib="8" loc="(125,330)" name="Text">
-      <a name="text" val="Soustraction pour 10 et 11"/>
-      <a name="font" val="SansSerif plain 12"/>
+    <comp lib="0" loc="(1010,320)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:41:15"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="536269de-aa09-4b2b-bd1d-b78bcac5da11"/>
+      <a name="integrity" val="c2c02e5e09336e9f6321414a7867cac6f3567573"/>
     </comp>
-    <comp lib="8" loc="(130,348)" name="Text">
-      <a name="text" val="Signé pour 00 et 10, non signé pour 01 et 11"/>
-      <a name="font" val="SansSerif plain 12"/>
+    <comp lib="1" loc="(1140,300)" name="NOR Gate">
+      <a name="inputs" val="5"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:43:37"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="81b78b2b-8790-4ced-bd7c-78c3d7547002"/>
+      <a name="integrity" val="8dfca8fd54a8fb6ed21f43dfc6e585ab32f667a5"/>
     </comp>
-    <comp lib="0" loc="(850,190)" name="Pin">
+    <comp lib="0" loc="(1210,360)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="overflow_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:56:14"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="ddc3e64c-fc47-4511-bb6d-d890e23861da"/>
+      <a name="integrity" val="5414515f86a62e951bbf8457d806b4fdd285a6ec"/>
+    </comp>
+    <comp lib="0" loc="(1210,260)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
@@ -517,46 +627,35 @@ end TCL_Generic;&#13;
       <a name="uuid" val="1c77d9c8-1600-4a01-9339-06705f67f868"/>
       <a name="integrity" val="fb876c9c1351c0138cf1fe810061cbbc778825c9"/>
     </comp>
-    <comp lib="0" loc="(850,250)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="overflow_o"/>
-      <a name="labelloc" val="east"/>
+    <comp loc="(1100,430)" name="AllOrNothing"/>
+    <comp lib="1" loc="(890,500)" name="NOT Gate">
       <a name="owner" val="calum_quinn"/>
-      <a name="date" val="27.10.23 09:56:14"/>
+      <a name="date" val="31.10.23 19:25:14"/>
       <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="ddc3e64c-fc47-4511-bb6d-d890e23861da"/>
-      <a name="integrity" val="5414515f86a62e951bbf8457d806b4fdd285a6ec"/>
+      <a name="uuid" val="215ee768-426f-43ee-8697-0eeefe9e5bc4"/>
+      <a name="integrity" val="5b8aa1e3593f8fdd0d0e8cea4f1526cfbabd8947"/>
     </comp>
-    <comp lib="1" loc="(610,230)" name="AND Gate">
+    <comp lib="0" loc="(830,470)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="b_i_Bit3"/>
+    </comp>
+    <comp lib="0" loc="(830,440)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="a_i_Bit3"/>
+    </comp>
+    <comp lib="1" loc="(920,430)" name="XOR Gate">
+      <a name="size" val="30"/>
       <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 13:51:48"/>
+      <a name="date" val="31.10.23 19:28:45"/>
       <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="31af44ac-6332-469f-978e-266544dcd5b6"/>
-      <a name="integrity" val="fc30d17cca88c9b5fcfa98c50d69a1b81ffd20e6"/>
+      <a name="uuid" val="6b85fb98-1945-4447-8489-a99700e43956"/>
+      <a name="integrity" val="88be1dee62bb34dc3ed3631c8b0830e34e41c20d"/>
     </comp>
-    <comp lib="1" loc="(720,250)" name="XOR Gate">
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 14:02:47"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="001537e8-25a3-40d9-a931-be660342f56f"/>
-      <a name="integrity" val="e3ddd4daac53c32f696e6f6307531f3e802c2be2"/>
+    <comp lib="0" loc="(830,500)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="r_o_Bit3"/>
     </comp>
-    <comp lib="8" loc="(433,336)" name="Text">
-      <a name="text" val="Ignore la retenue pour signé"/>
-      <a name="font" val="SansSerif plain 12"/>
-    </comp>
-    <comp lib="0" loc="(780,290)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 16:37:21"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="d4917aa7-a5ee-4922-820d-9f2ff9c89595"/>
-      <a name="integrity" val="aff1535e43e57d6c34e742740baac899eb38a890"/>
-    </comp>
-    <comp lib="0" loc="(620,470)" name="Pin">
+    <comp lib="0" loc="(760,580)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="label" val="carry_o"/>
@@ -567,29 +666,7 @@ end TCL_Generic;&#13;
       <a name="uuid" val="299dc630-82a6-4762-9fbc-5b50bbd74d38"/>
       <a name="integrity" val="b6cd5da3fc8a977dacebef2d52acb7ca82e364a9"/>
     </comp>
-    <comp lib="1" loc="(920,350)" name="NOR Gate">
-      <a name="inputs" val="4"/>
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 16:43:23"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="2ecf0d81-2d4a-46b0-b523-44d75a20b5b0"/>
-      <a name="integrity" val="218872b984272d31d61da8760679b7b87a974c57"/>
-    </comp>
-    <comp lib="1" loc="(990,370)" name="AND Gate">
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 16:44:45"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="ef6dcfad-29fe-40d0-9fd5-50765cf23b45"/>
-      <a name="integrity" val="e5417948eeef26bcafc90c08ee5443b9bcff3640"/>
-    </comp>
-    <comp lib="1" loc="(910,390)" name="NOT Gate">
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 16:44:53"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="0e48c494-5e98-46ec-bc4b-44adb03345e1"/>
-      <a name="integrity" val="73c2f299cba4baf86eba723a9ef2eecfdb8c18da"/>
-    </comp>
-    <comp lib="0" loc="(1020,470)" name="Pin">
+    <comp lib="0" loc="(1140,580)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="label" val="zero_o"/>
@@ -600,7 +677,7 @@ end TCL_Generic;&#13;
       <a name="uuid" val="a7de7286-626d-48b3-a901-2122d6a9b637"/>
       <a name="integrity" val="06b9818e33408f32d620cba87746687d1ed84145"/>
     </comp>
-    <comp lib="0" loc="(900,470)" name="Pin">
+    <comp lib="0" loc="(940,590)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="label" val="Negative_o"/>
@@ -611,12 +688,52 @@ end TCL_Generic;&#13;
       <a name="uuid" val="97786343-5314-40f2-aa5c-75e702e4d833"/>
       <a name="integrity" val="0ab5074cd692a70dda877162e664e755513b759a"/>
     </comp>
-    <comp lib="1" loc="(850,430)" name="AND Gate">
+    <comp lib="0" loc="(880,540)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="r_o_Bit3"/>
+    </comp>
+    <comp lib="1" loc="(930,550)" name="AND Gate">
+      <a name="size" val="30"/>
       <a name="owner" val="calum_quinn"/>
-      <a name="date" val="31.10.23 17:43:46"/>
+      <a name="date" val="31.10.23 19:49:57"/>
       <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="ebf365fd-b97d-4dcc-a960-a3676cbe5300"/>
-      <a name="integrity" val="8708ddf6907bc7f4d7440e8cf5eb62a957a12d47"/>
+      <a name="uuid" val="0c6fd55d-cd9d-4e60-ba46-ee8f10be051e"/>
+      <a name="integrity" val="70848bd4a1a83977eb2fef1333f6be968a2f551a"/>
+    </comp>
+    <comp lib="0" loc="(150,440)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="label" val="op_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:54:36"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="fbc288e8-c980-476d-8b9d-fbfbab0a067d"/>
+      <a name="integrity" val="79b0536c10d32f2e04884326ba9d853a68b17059"/>
+    </comp>
+    <comp lib="8" loc="(143,485)" name="Text">
+      <a name="text" val="Signé pour 00 et 10, non signé pour 01 et 11"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="8" loc="(138,467)" name="Text">
+      <a name="text" val="Soustraction pour 10 et 11"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(880,190)" name="Tunnel">
+      <a name="label" val="r_o_Bit3"/>
+    </comp>
+    <comp lib="1" loc="(910,350)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:14:01"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="e9ab2882-8a0d-4e65-ae57-070dcd7f6032"/>
+      <a name="integrity" val="cd2a479140aebf5051e386962da9426b4e26a98a"/>
+    </comp>
+    <comp lib="1" loc="(860,360)" name="NOT Gate">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:13:53"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="da19e89a-4ce5-45ca-86e6-9b7c4c615aec"/>
+      <a name="integrity" val="9a403dadc74eaa8571d17eb0bcec06f344102067"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
@@ -651,6 +768,64 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
+    <wire from="(480,330)" to="(730,330)"/>
+    <wire from="(710,250)" to="(830,250)"/>
+    <wire from="(900,260)" to="(950,260)"/>
+    <wire from="(860,340)" to="(910,340)"/>
+    <wire from="(900,220)" to="(950,220)"/>
+    <wire from="(860,140)" to="(910,140)"/>
+    <wire from="(890,250)" to="(890,260)"/>
+    <wire from="(460,350)" to="(830,350)"/>
+    <wire from="(910,140)" to="(910,210)"/>
+    <wire from="(580,190)" to="(830,190)"/>
+    <wire from="(580,170)" to="(830,170)"/>
+    <wire from="(1070,270)" to="(1070,300)"/>
+    <wire from="(700,240)" to="(700,270)"/>
+    <wire from="(1070,250)" to="(1070,260)"/>
+    <wire from="(470,310)" to="(830,310)"/>
+    <wire from="(300,290)" to="(390,290)"/>
+    <wire from="(710,210)" to="(710,250)"/>
+    <wire from="(480,290)" to="(830,290)"/>
+    <wire from="(900,260)" to="(900,300)"/>
+    <wire from="(900,180)" to="(900,220)"/>
+    <wire from="(860,260)" to="(890,260)"/>
+    <wire from="(860,220)" to="(890,220)"/>
+    <wire from="(760,210)" to="(830,210)"/>
+    <wire from="(760,330)" to="(830,330)"/>
+    <wire from="(760,130)" to="(830,130)"/>
+    <wire from="(570,150)" to="(570,210)"/>
+    <wire from="(580,80)" to="(580,130)"/>
+    <wire from="(470,250)" to="(470,310)"/>
+    <wire from="(1050,300)" to="(1070,300)"/>
+    <wire from="(410,250)" to="(470,250)"/>
+    <wire from="(890,220)" to="(890,230)"/>
+    <wire from="(410,260)" to="(460,260)"/>
+    <wire from="(890,230)" to="(950,230)"/>
+    <wire from="(890,250)" to="(950,250)"/>
+    <wire from="(910,270)" to="(910,340)"/>
+    <wire from="(390,280)" to="(390,290)"/>
+    <wire from="(410,220)" to="(580,220)"/>
+    <wire from="(670,110)" to="(710,110)"/>
+    <wire from="(670,80)" to="(670,110)"/>
+    <wire from="(480,80)" to="(480,290)"/>
+    <wire from="(860,300)" to="(900,300)"/>
+    <wire from="(910,270)" to="(950,270)"/>
+    <wire from="(860,180)" to="(900,180)"/>
+    <wire from="(910,210)" to="(950,210)"/>
+    <wire from="(580,190)" to="(580,220)"/>
+    <wire from="(410,240)" to="(700,240)"/>
+    <wire from="(410,230)" to="(830,230)"/>
+    <wire from="(1070,260)" to="(1070,270)"/>
+    <wire from="(460,260)" to="(460,350)"/>
+    <wire from="(580,130)" to="(580,170)"/>
+    <wire from="(580,130)" to="(730,130)"/>
+    <wire from="(710,210)" to="(730,210)"/>
+    <wire from="(410,210)" to="(570,210)"/>
+    <wire from="(710,110)" to="(710,210)"/>
+    <wire from="(480,290)" to="(480,330)"/>
+    <wire from="(700,270)" to="(830,270)"/>
+    <wire from="(570,150)" to="(830,150)"/>
+    <wire from="(1000,240)" to="(1070,240)"/>
     <comp lib="0" loc="(300,170)" name="Pin">
       <a name="label" val="a_i"/>
       <a name="owner" val="calum_quinn"/>
@@ -676,27 +851,47 @@ end TCL_Generic;&#13;
       <a name="uuid" val="59fa3f41-10f7-43ac-b8ae-6db444f05da6"/>
       <a name="integrity" val="4e39ce61935ca666142eb728da7d6ebac87e1523"/>
     </comp>
-    <comp lib="0" loc="(400,80)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="label" val="carry_i"/>
-      <a name="labelloc" val="north"/>
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="27.10.23 09:59:58"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="7e6f038b-455f-4584-997d-4788b341fc8e"/>
-      <a name="integrity" val="48beb6a226ad6faa4f8040ab8566fa89ecc9b6d1"/>
+    <comp lib="8" loc="(344,509)" name="Text">
+      <a name="text" val="011 : not(Zero)"/>
+      <a name="font" val="SansSerif plain 12"/>
     </comp>
-    <comp lib="0" loc="(490,80)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="label" val="Negative_i"/>
-      <a name="labelloc" val="north"/>
-      <a name="owner" val="calum_quinn"/>
-      <a name="date" val="27.10.23 09:59:58"/>
-      <a name="version" val="2.16.8.t"/>
-      <a name="uuid" val="35d43302-59b0-4226-a830-66e8303af037"/>
-      <a name="integrity" val="2a344ad64354324f7f7a4177c5e1ae6a309a4362"/>
+    <comp lib="8" loc="(330,528)" name="Text">
+      <a name="text" val="100 : Zero"/>
+      <a name="font" val="SansSerif plain 12"/>
     </comp>
-    <comp lib="0" loc="(580,80)" name="Pin">
+    <comp lib="8" loc="(359,546)" name="Text">
+      <a name="text" val="101 : Carry non signé"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="8" loc="(370,562)" name="Text">
+      <a name="text" val="110 : not(Carry) non signé"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="8" loc="(357,490)" name="Text">
+      <a name="text" val="010 : Negative signé"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="8" loc="(369,474)" name="Text">
+      <a name="text" val="001 : not(Negative) signé"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="2" loc="(390,280)" name="Decoder">
+      <a name="select" val="3"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:26:20"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1936995e-05a3-4f71-b219-dbf573495402"/>
+      <a name="integrity" val="ed4b022c720dbc3c11ade46421549d00041bd531"/>
+    </comp>
+    <comp lib="1" loc="(760,210)" name="NOT Gate">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:36:13"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="81dfe7e3-6383-4322-8538-9c64e2795a17"/>
+      <a name="integrity" val="5fe9b98f408ab43125b54732cac31f9810a552eb"/>
+    </comp>
+    <comp lib="0" loc="(670,80)" name="Pin">
       <a name="facing" val="south"/>
       <a name="label" val="zero_i"/>
       <a name="labelloc" val="north"/>
@@ -706,7 +901,90 @@ end TCL_Generic;&#13;
       <a name="uuid" val="ef4484b1-0df8-4fd9-b7e1-33851d62d8c1"/>
       <a name="integrity" val="6a047d08c209c0262c06ae06522a85ae134042e6"/>
     </comp>
-    <comp lib="0" loc="(750,290)" name="Pin">
+    <comp lib="1" loc="(860,140)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:32:49"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="c6bf2cbf-4ab1-441e-9ea9-f69b434d7a53"/>
+      <a name="integrity" val="ed4f797e245ad6811fb67b913268bd9fe85fd04d"/>
+    </comp>
+    <comp lib="1" loc="(860,220)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:32:49"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="b6e79c5d-8fc6-4b57-9b48-4c8033ff8dcf"/>
+      <a name="integrity" val="18cc8ed013c25a401c01e15dec817e0e1ef1fa02"/>
+    </comp>
+    <comp lib="1" loc="(860,180)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:32:49"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="b6e79c5d-8fc6-4b57-9b48-4c8033ff8dcf"/>
+      <a name="integrity" val="18cc8ed013c25a401c01e15dec817e0e1ef1fa02"/>
+    </comp>
+    <comp lib="1" loc="(860,260)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:32:49"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="621be04d-3671-4e82-b95c-91f393026684"/>
+      <a name="integrity" val="7c2f4a43b7fc4423f527433d0e02a9248e77647c"/>
+    </comp>
+    <comp lib="0" loc="(580,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="Negative_i"/>
+      <a name="labelloc" val="north"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:59:58"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="35d43302-59b0-4226-a830-66e8303af037"/>
+      <a name="integrity" val="2a344ad64354324f7f7a4177c5e1ae6a309a4362"/>
+    </comp>
+    <comp lib="0" loc="(480,80)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="carry_i"/>
+      <a name="labelloc" val="north"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="27.10.23 09:59:58"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="7e6f038b-455f-4584-997d-4788b341fc8e"/>
+      <a name="integrity" val="48beb6a226ad6faa4f8040ab8566fa89ecc9b6d1"/>
+    </comp>
+    <comp lib="1" loc="(860,300)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:32:49"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="e3cbc5a0-5894-460c-bf0e-5cbe7961cd1f"/>
+      <a name="integrity" val="96c01aa4425f16caaf96473fa4e3f211cbba6007"/>
+    </comp>
+    <comp lib="1" loc="(860,340)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:32:49"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="6470c036-8603-4e34-870e-adc3e01083cf"/>
+      <a name="integrity" val="f9371f085b37cd2fd783ebc86b892386310cb6a6"/>
+    </comp>
+    <comp lib="1" loc="(760,330)" name="NOT Gate">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:38:43"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="a363169d-4865-4365-b25b-d425f44e0e8c"/>
+      <a name="integrity" val="d0ddac1da73b08649cb73530527f23435328fdff"/>
+    </comp>
+    <comp lib="1" loc="(1000,240)" name="OR Gate">
+      <a name="inputs" val="6"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:40:08"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="b48b7190-6f86-4968-a75d-84a244a86e14"/>
+      <a name="integrity" val="39f47dfeb13c6d2333aa2375582a7d9f75b7d351"/>
+    </comp>
+    <comp lib="0" loc="(1090,230)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
@@ -717,6 +995,26 @@ end TCL_Generic;&#13;
       <a name="version" val="2.16.8.t"/>
       <a name="uuid" val="bf6fb04c-eb79-4c43-a891-b43c56f07a94"/>
       <a name="integrity" val="a4cd7b2c5ed39f8f144e5ad32f538b0e5958a709"/>
+    </comp>
+    <comp lib="0" loc="(1090,230)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:40:50"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="fdc19d02-ab39-48a1-8e6b-e05cb3748971"/>
+      <a name="integrity" val="720c2358ad11ee95696b74237fd4b4c24dd5e2f2"/>
+    </comp>
+    <comp lib="0" loc="(1050,300)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(760,130)" name="NOT Gate">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 18:32:57"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="4789c907-cbd3-486b-8b23-06c529ddfa4c"/>
+      <a name="integrity" val="d8d8db2856a7c7209acdb05e05d19ea1b0f836f7"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
@@ -1167,6 +1465,111 @@ end TCL_Generic;&#13;
       <a name="version" val="2.16.8.t"/>
       <a name="uuid" val="ae779078-b467-4099-a0e8-06beefc8bc91"/>
       <a name="integrity" val="ba3e2bdde48d1d927e14d7319de7c9391af52e88"/>
+    </comp>
+    <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
+      <a name="text" val="Attention, votre version de Logisim"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,100)" name="Text" trackercomp="true">
+      <a name="text" val="ne contient pas de tracker. Si vous"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,150)" name="Text" trackercomp="true">
+      <a name="text" val="enregistrez votre projet, toutes les"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,200)" name="Text" trackercomp="true">
+      <a name="text" val="informations du tracker seront"/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+    <comp lib="7" loc="(4,250)" name="Text" trackercomp="true">
+      <a name="text" val="définitivement effacées."/>
+      <a name="font" val="SansSerif plain 48"/>
+      <a name="halign" val="left"/>
+    </comp>
+  </circuit>
+  <circuit name="AllOrNothing">
+    <a name="circuit" val="AllOrNothing"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <wire from="(430,200)" to="(460,200)"/>
+    <wire from="(180,200)" to="(240,200)"/>
+    <wire from="(350,220)" to="(380,220)"/>
+    <wire from="(350,180)" to="(380,180)"/>
+    <wire from="(330,230)" to="(350,230)"/>
+    <wire from="(330,170)" to="(350,170)"/>
+    <wire from="(350,220)" to="(350,230)"/>
+    <wire from="(350,170)" to="(350,180)"/>
+    <wire from="(240,200)" to="(240,220)"/>
+    <wire from="(240,180)" to="(240,200)"/>
+    <wire from="(240,220)" to="(280,220)"/>
+    <wire from="(240,180)" to="(280,180)"/>
+    <wire from="(180,160)" to="(280,160)"/>
+    <wire from="(180,240)" to="(280,240)"/>
+    <comp lib="0" loc="(180,160)" name="Pin">
+      <a name="label" val="a_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:35:22"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="0e13d914-7f43-43a8-810b-14972f13cb35"/>
+      <a name="integrity" val="07ff40037f9058a28b5891a80677b47e04514ebd"/>
+    </comp>
+    <comp lib="1" loc="(330,170)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:35:37"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="1d08aa14-febb-40d1-951d-94325cf75b9a"/>
+      <a name="integrity" val="4b82900ca9c830c65b836e7daa03fa33e261fa51"/>
+    </comp>
+    <comp lib="1" loc="(430,200)" name="AND Gate">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:36:00"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="02716921-83bf-476f-97f6-dc73665afc5a"/>
+      <a name="integrity" val="9e0bcb42dadf4b622399f15f2235761751b68042"/>
+    </comp>
+    <comp lib="1" loc="(330,230)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:35:37"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="7a66f011-85c9-47d9-b229-029b40e6aa0e"/>
+      <a name="integrity" val="ea81a0d2ca8905066d82ac51461368e47c756841"/>
+    </comp>
+    <comp lib="0" loc="(180,240)" name="Pin">
+      <a name="label" val="c_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:35:22"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="ee6094bc-549d-4ab4-998a-54a78976bcb4"/>
+      <a name="integrity" val="866c0ab9b764580c989ec19a50f72bca36880882"/>
+    </comp>
+    <comp lib="0" loc="(180,200)" name="Pin">
+      <a name="label" val="b_i"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:35:22"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="cc8f64b5-153e-4a10-a136-8dfff3912d73"/>
+      <a name="integrity" val="6396c081c48b88d74829a48631043060ff25c4d2"/>
+    </comp>
+    <comp lib="0" loc="(460,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="r_o"/>
+      <a name="labelloc" val="east"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:35:30"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="e023079f-25d0-499e-981d-1b169b0e1624"/>
+      <a name="integrity" val="af2b90d8b19b2d29b660de4c9f1fc599f336fb22"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>

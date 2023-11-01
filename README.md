@@ -5,8 +5,38 @@
 ### Question 1
 #### Identifiez et documentez les différents opcodes entraînant une erreur.
 
+Les opcodes qui génèrent des erreurs sont ceux qui ne sont pas pris en charge par les blocs. C'est-à-dire:
+- Tous ceux du format `010xxx`
+- `011000`
+- `011111`
+
+Ceci peut être contrôlé en calculant le nombre total d'opcode possible et enlever chacun de ceux qui sont définis. 
+Un opcode est défini sur 6 bits et à donc 64 valleurs possibles allant de `000000` à `111111`.
+
+Pour le bloc `add/sub`, il y a 4 opcodes qui ont chacun deux valeurs indéterminées. Ceci veut dire qu'on a `4 * 2^2` donc 16 opcodes possible.
+
+Pour le bloc `comparateur`, il y a 6 opcodes définis.
+
+Pour le bloc `logique`, il y a, comme pour le bloc add/sub, 4 opcodes qui ont chacun deux valeurs indéterminées. Ceci veut dire qu'on a `4 * 2^2` donc 16 opcodes possible.
+
+Pour le bloc `custom`, il y a 1 opcode avec 4 valeurs indéterminées. Ceci représente `1 * 2^4` donc 16 opcodes possible.
+
+Si on reprend notre total de 64 opcodes possibles et qu'on enlève tout ceux qui sont définis (16 pour add/sub, 7 pour comparateur, 16 pour logique et 16 pour custom) on trouve qu'il devrait y avoir 10 opcodes non définis. Ceci est bien le cas si on considère les opcodes cités plus haut. Il y a un opcode avec 3 bits indéterminés et 2 opcodes définis. Ceci fait un total de 10 opcodes entrainant une erreur ce qui correspond à la valeur attendue.
+
 ### Question 2
 #### Reprenez le schéma disponible en Figure `1` et donnez, pour chaque bloc, les bits d'opcode utilisés (l'idée est de répondre aux oints d'interrogation dans le schéma). Vos réponses doivent être de la forme "les bits d'opcode du bloc add/sub sont les bits [X:Y]".
+
+#### add/sub:
+Les bits d'opcode du bloc add/sub sont les bits [3:2]
+
+#### comparateur:
+Les bits d'opcode du bloc comparateur sont les bits [2:0]
+
+#### unité logique:
+Les bits d'opcode du bloc unité logique sont les bits [1:0]
+
+#### custom:
+Le bloc custom n'a pas besoin de faire de choix d'opération
 
 ### Question 3
 #### Lorsqu'un overflow se produit, le signe n'est plus géré correctement et la sortie `negative_o` n'a donc pas la bonne valeur. Corrigez ce problème et expliquez votre raisonnement dans le fichier pdf.

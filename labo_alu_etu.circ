@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="ebe696da7ca9ed507f9580e7ae2f18492d4dab60" source="2.16.8.t" version="1.0">
+<project integrity="b2dfcf0def85891c9963425be3532a0d4c6b5ec7" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -731,23 +731,31 @@ end TCL_Generic;&#13;
     </comp>
     <comp lib="0" loc="(180,270)" name="Splitter">
       <a name="facing" val="south"/>
-      <a name="fanout" val="4"/>
+      <a name="fanout" val="1"/>
       <a name="incoming" val="4"/>
       <a name="owner" val="calum_quinn"/>
       <a name="date" val="31.10.23 19:17:02"/>
       <a name="version" val="2.16.8.t"/>
       <a name="uuid" val="a39c861a-9bb3-4d0f-9080-d1e98222fd60"/>
       <a name="integrity" val="056699283bb7a36f7093786f384942ad16dd0f4d"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="0"/>
     </comp>
     <comp lib="0" loc="(180,150)" name="Splitter">
       <a name="facing" val="south"/>
-      <a name="fanout" val="4"/>
+      <a name="fanout" val="1"/>
       <a name="incoming" val="4"/>
       <a name="owner" val="calum_quinn"/>
       <a name="date" val="31.10.23 19:17:02"/>
       <a name="version" val="2.16.8.t"/>
       <a name="uuid" val="67a4aa50-0799-4bb6-96c4-9d697ec8d3b8"/>
       <a name="integrity" val="8d2f7f2c8807d96024a3bc817b6aebe22d4badf6"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="0"/>
     </comp>
     <comp lib="0" loc="(190,210)" name="Tunnel">
       <a name="label" val="a_i_Bit3"/>
@@ -760,13 +768,17 @@ end TCL_Generic;&#13;
       <a name="font" val="SansSerif plain 12"/>
     </comp>
     <comp lib="0" loc="(850,200)" name="Splitter">
-      <a name="fanout" val="4"/>
+      <a name="fanout" val="1"/>
       <a name="incoming" val="4"/>
       <a name="owner" val="calum_quinn"/>
       <a name="date" val="31.10.23 19:17:02"/>
       <a name="version" val="2.16.8.t"/>
       <a name="uuid" val="f6f47bb9-7454-46c7-a763-83463a84e164"/>
       <a name="integrity" val="1dfea888f4892ba0ee897a69cdf278cff25e920f"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="0"/>
     </comp>
     <comp lib="0" loc="(150,260)" name="Pin">
       <a name="width" val="4"/>

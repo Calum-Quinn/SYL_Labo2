@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="0c8f33b48cdf4816b2721ea04fa6df6e9861b630" source="2.16.8.t" version="1.0">
+<project integrity="fccf877779f2ece817d377c5443183fd6337d09c" source="2.16.8.t" version="1.0">
 This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -583,11 +583,12 @@ end TCL_Generic;&#13;
     <wire from="(180,260)" to="(180,270)"/>
     <wire from="(180,140)" to="(180,150)"/>
     <wire from="(320,510)" to="(500,510)"/>
+    <wire from="(760,460)" to="(760,590)"/>
     <wire from="(950,690)" to="(950,720)"/>
-    <wire from="(690,560)" to="(920,560)"/>
     <wire from="(410,370)" to="(410,390)"/>
     <wire from="(520,260)" to="(620,260)"/>
     <wire from="(150,440)" to="(380,440)"/>
+    <wire from="(760,590)" to="(760,800)"/>
     <wire from="(860,400)" to="(860,550)"/>
     <wire from="(390,280)" to="(620,280)"/>
     <wire from="(960,730)" to="(1070,730)"/>
@@ -597,7 +598,7 @@ end TCL_Generic;&#13;
     <wire from="(410,370)" to="(440,370)"/>
     <wire from="(400,420)" to="(430,420)"/>
     <wire from="(1070,360)" to="(1210,360)"/>
-    <wire from="(760,690)" to="(760,800)"/>
+    <wire from="(690,560)" to="(900,560)"/>
     <wire from="(1060,360)" to="(1070,360)"/>
     <wire from="(520,260)" to="(520,420)"/>
     <wire from="(400,410)" to="(420,410)"/>
@@ -619,10 +620,12 @@ end TCL_Generic;&#13;
     <wire from="(760,280)" to="(760,460)"/>
     <wire from="(1030,300)" to="(1080,300)"/>
     <wire from="(1030,280)" to="(1080,280)"/>
+    <wire from="(760,590)" to="(880,590)"/>
     <wire from="(430,500)" to="(480,500)"/>
     <wire from="(920,560)" to="(920,630)"/>
     <wire from="(390,140)" to="(390,280)"/>
-    <wire from="(760,690)" to="(950,690)"/>
+    <wire from="(890,690)" to="(950,690)"/>
+    <wire from="(900,560)" to="(900,630)"/>
     <wire from="(430,420)" to="(430,430)"/>
     <wire from="(500,510)" to="(500,520)"/>
     <wire from="(380,430)" to="(380,440)"/>
@@ -630,6 +633,7 @@ end TCL_Generic;&#13;
     <wire from="(420,390)" to="(420,410)"/>
     <wire from="(430,500)" to="(430,520)"/>
     <wire from="(720,280)" to="(760,280)"/>
+    <wire from="(890,660)" to="(890,690)"/>
     <wire from="(480,420)" to="(480,500)"/>
     <wire from="(760,460)" to="(870,460)"/>
     <wire from="(500,540)" to="(540,540)"/>
@@ -638,13 +642,14 @@ end TCL_Generic;&#13;
     <wire from="(150,140)" to="(180,140)"/>
     <wire from="(150,260)" to="(180,260)"/>
     <wire from="(840,400)" to="(860,400)"/>
+    <wire from="(900,560)" to="(920,560)"/>
     <wire from="(470,380)" to="(690,380)"/>
     <wire from="(430,520)" to="(460,520)"/>
     <wire from="(1140,300)" to="(1140,800)"/>
+    <wire from="(880,590)" to="(880,630)"/>
     <wire from="(1070,320)" to="(1080,320)"/>
     <wire from="(520,420)" to="(870,420)"/>
     <wire from="(180,140)" to="(390,140)"/>
-    <wire from="(760,460)" to="(760,690)"/>
     <wire from="(580,300)" to="(580,530)"/>
     <wire from="(400,390)" to="(410,390)"/>
     <wire from="(850,200)" to="(850,260)"/>
@@ -889,6 +894,15 @@ end TCL_Generic;&#13;
       <a name="version" val="2.16.8.t"/>
       <a name="uuid" val="0c6fd55d-cd9d-4e60-ba46-ee8f10be051e"/>
       <a name="integrity" val="70848bd4a1a83977eb2fef1333f6be968a2f551a"/>
+    </comp>
+    <comp lib="1" loc="(890,660)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="31.10.23 19:49:57"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="40ce97c4-7701-4ba3-a7d1-345d3fa014ae"/>
+      <a name="integrity" val="158a4fd1c01e624c9074086b07e67309960c6b56"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>

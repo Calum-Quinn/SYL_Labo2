@@ -80,8 +80,9 @@ Cette fonction devient facile à schématiser.
 ### Question 5
 #### En plus des opcodes invalides, certains cas d'utilisation doivent générer une erreur. Déterminez ces différents cas et documentez les avant d'implémenter les modifications nécessaires.
 
-
+Dans le cas où nous faisons des addition ou soustraction et qu'il y a un overflow, celui-ci n'était pas pris en compte. nous avons donc ajouter des cas d'erreurs dans le schéma `ALU_Top` pour signaler une erreur lors d'un overflow lorsqu'on emploi le bloc `Add/Sub`.
 
 ### Question 6
 #### Avec `a_i[3:0] = 0001`, `b_i[3:0] = 1001` et `op_i[6:0] = 011011` quelle est la valeur observée pour l'overflow ? Et pour la sortie `erreur_o` ? Cela correspond-t-il à ce que vous attendiez à la suite de la Question 5?
 
+La valeur de `Overflow` est à 1 et la valeur de `erreur` est à 0. Ceci est exactement ce que nous attendions car l'overflow représente une erreur seulement si l'opcode désigne une utilisation de l'alu pour faire une addition ou une soustraction.

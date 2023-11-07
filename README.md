@@ -41,6 +41,10 @@ Le bloc custom n'a pas besoin de faire de choix d'opération
 ### Question 3
 #### Lorsqu'un overflow se produit, le signe n'est plus géré correctement et la sortie `negative_o` n'a donc pas la bonne valeur. Corrigez ce problème et expliquez votre raisonnement dans le fichier pdf.
 
+Lorsqu'on a un overflow, le signe n'est plus géré correctement car le bit de signe est décalé d'un bit vers la gauche. Ceci correspond à la carry.
+
+Avec un multiplexeur, on peut donc sélectionner si on utilise le MSB ou la carry pour le bit de signe. Ceci permet de gérer le signe correctement.
+
 ### Question 4
 #### Mettez en place une table de vérité, puis justifiez le développement de votre circuit.
 

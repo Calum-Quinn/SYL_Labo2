@@ -56,7 +56,7 @@ La table de vérité que nous voulons obtenir avec notre circuit est donc:
 
 |A	|B	|C	|D	|S	|
 |---|---|---|---|---|
-|0	|0	|0	|0	|1	|
+|0	|0	|0	|0	|0	|
 |0	|0	|0	|1	|1	|
 |0	|0	|1	|0	|1	|
 |0	|0	|1	|1	|0	|
